@@ -1,0 +1,69 @@
+body {
+  margin: 30px;
+}
+#section {
+  background-color: darkgoldenrod;
+}
+
+header {
+  background-color: black;
+  color: darkgoldenrod;
+  text-align: center;
+  font-size: 30px;
+}
+
+.container {
+  display: flex;
+  margin: 30px;
+}
+h3 {
+  margin: 0px;
+}
+#presentiun h3 {
+  margin: 30px;
+}
+.image {
+  height: 350px;
+  width: 200px;
+}
+.parrafo {
+  width: 70%;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
+
+video {
+  margin: 30px;
+  width: 500px;
+  height: 250px;
+}
+
+footer {
+  bottom: 70px;
+  background-color: black;
+  color: darkgoldenrod;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+@media (max-width: 500px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px;
+  }
+  p {
+    font-size: 20px;
+  }
+  video {
+    margin-top: 0px;
+    width: 300px;
+  }
+  footer {
+    text-align: center;
+  }
+}
